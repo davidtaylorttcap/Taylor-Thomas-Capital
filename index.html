@@ -12,30 +12,31 @@
             width: 100vw;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end; /* Aligns content towards the bottom */
             font-family: Arial, sans-serif;
             color: white;
             background-image: url("https://i.imgur.com/UaZrYv5.png");
             background-size: cover; /* Ensures the image covers the entire viewport */
-            background-position: center; /* Keeps the image centered */
+            background-position: center; /* Centers the background image */
             background-repeat: no-repeat; /* Prevents image repetition */
             background-attachment: fixed; /* Keeps the image fixed when scrolling */
         }
 
         .content {
             text-align: center;
-            padding: 50px 20px; /* Adjust this for spacing between the text and top of the page */
+            padding: 20px; /* Adds spacing from the bottom */
+            max-width: 800px;
+            width: 100%;
         }
 
         h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
+            font-size: 2.5em;
+            margin-bottom: 25px;
         }
 
         p {
             font-size: 1.5em;
             line-height: 1.5;
-            max-width: 800px;
             margin: 0 auto;
         }
     </style>
